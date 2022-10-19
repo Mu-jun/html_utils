@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .scrollable-menu {
+            height: auto;
+            max-height: 200px;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,7 +22,7 @@
         <button class="form-select " type="button" id="select_country" data-bs-toggle="dropdown" aria-expanded="false">
             Select Country
         </button>
-        <ul class="dropdown-menu" aria-labelledby="select_country" id="options">
+        <ul class="dropdown-menu scrollable-menu" aria-labelledby="select_country" id="options">
         </ul>
     </div>
 
